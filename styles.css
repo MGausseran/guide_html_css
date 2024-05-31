@@ -1,19 +1,35 @@
+/*---General---*/
+
+
+
 body {
     max-width: 480px;
-    background-color: #2d6273;
+    background-color: #fff;
     margin: 0;
-    color: white;
+    color: black;
     font-family: "Raleway";
 }
 
 p {
-    font-size: 
-        em;
+    font-size: 1em;
 }
+
+main {
+    margin: 1em;
+}
+
+a{
+ text-decoration: none;
+color: white;
+}
+
+/*---Header---*/
+
+
 
 header {
     display: flex;
-    background-color: #48a5c2;
+    background-color: cadetblue;
     align-items: center;
     justify-content: space-around;
     color: white;
@@ -28,18 +44,14 @@ header h1 {
 
 nav a {
     margin-right: 10px;
-    text-decoration: none;
     color: white;
     font-weight: 300;
 }
 
-main {
-    margin: 5px;
-}
+/*---Banner---*/
 
-main {
-    margin: 0;
-}
+
+
 .banner {
     position: relative;
 }
@@ -70,4 +82,32 @@ main {
 .banner-content img {
     width: 100%;
     height: auto;
+}
+
+/*---Boutons---*/
+
+.btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 800;
+    box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.btn:hover{
+    background-color: #48a5c2
+}
+
+
+/*---Page d'accueil---*/
+
+.choix_cours li {
+    display: flex;
+}
+.choix_cours ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 3em;
 }
